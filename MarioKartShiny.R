@@ -9,7 +9,7 @@ library(plotly)
 
 
 karts <- read.csv('source_data/karts.csv')
-bike <- read.csv('source_data/bikes.csv')
+bikes <- read.csv('source_data/bikes.csv')
 characters <- read.csv('source_data/characters.csv')
 
 Choices.c <- sort(characters$Character)
